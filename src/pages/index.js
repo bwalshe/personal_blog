@@ -1,3 +1,10 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Layout from "../components/layout"
+import BlogRoll from "../components/blogroll"
+
+
+export default () => 
+  <Layout bigHeader={true}>
+      <BlogRoll/>
+  </Layout>
