@@ -33,7 +33,7 @@ export default () => {
         <div css={css`
             max-width: 800px;
             margin: auto;
-            padding: 0`}>
+            padding: 10px`}>
             <h4>{totalCount} Posts</h4>
             <ul css={css`list-style-type: none; padding 0; margin 0;`}>
             {edges.map(({node}, index) => {

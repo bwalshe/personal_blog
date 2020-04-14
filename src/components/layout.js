@@ -68,12 +68,12 @@ const BigHeader =  ({title, byline}) =>
       height: 312px;
       background-image: url(${headerImage})`}>
     <div css={css`
-        width: 400px;
         display: inline-block;
         vertical-align: middle;
-        margin-left: 100px;
+        margin-left: 10%;
         margin-top: 50px;
         margin-bottom: auto;
+        margin-right: auto;
         background-color: ${HEADER_COLOR}; 
         padding: 20px;
         `}>
